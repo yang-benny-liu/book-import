@@ -5,7 +5,7 @@ metadata:
     name: book-import
   name: book-import
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       name: book-import
@@ -15,8 +15,8 @@ spec:
         name: book-import
     spec:
       containers:
-      - image: quay.io/jpacker/hugo:latest
+      - image: quay.io/jpacker/hugo-nginx:latest
         name: book-import
         ports:
-        - containerPort: 1313
+        - containerPort: 8080
           name: http-server
