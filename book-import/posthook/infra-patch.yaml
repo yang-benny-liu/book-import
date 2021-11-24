@@ -3,7 +3,7 @@ kind: AnsibleJob
 metadata:
   name: hive-cluster-gitrepo
 spec:
-  tower_auth_secret: automation
+  tower_auth_secret: infra-patch
   job_template_name: INFRASTRUCTURE-Patching
   extra_vars:
     HOSTS: node1
