@@ -1,0 +1,9 @@
+apiVersion: apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: hive-cluster-gitrepo
+spec:
+  tower_auth_secret: automation
+  job_template_name: INFRASTRUCTURE-Patching
+  extra_vars:
+    HOSTS: node1
