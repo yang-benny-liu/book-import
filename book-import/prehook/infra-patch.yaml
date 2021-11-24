@@ -1,5 +1,5 @@
 ---
-apiVersion: apiVersion: tower.ansible.com/v1alpha1
+apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
   name: infra-patch
