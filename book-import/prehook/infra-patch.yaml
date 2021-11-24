@@ -6,5 +6,3 @@ metadata:
 spec:
   tower_auth_secret: infra-patch
   job_template_name: INFRASTRUCTURE-Patching
-  extra_vars:
-    HOSTS: node1
