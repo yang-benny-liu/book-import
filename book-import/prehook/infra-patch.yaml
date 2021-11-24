@@ -5,4 +5,4 @@ metadata:
   name: infra-patch
 spec:
   tower_auth_secret: infra-patch
-  job_template_name: Create-Developer-Report
+  job_template_name: INFRASTRUCTURE-Patching
